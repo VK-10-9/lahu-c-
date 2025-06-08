@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Vishwajeet Kumar - Initial work
+- Vishwanath M. Koliwad - Initial work
 
 ## 🙏 Acknowledgments
 

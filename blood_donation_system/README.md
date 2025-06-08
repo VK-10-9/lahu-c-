@@ -138,4 +138,20 @@ pytest
 
 - Code comments
 - API documentation
-- Usage examples 
+- Usage examples
+
+## 🔍 C++ Donor Search Feature
+
+You can now search for donors by blood type using the C++ core directly:
+
+```
+cd build/bin
+./blood_compatibility search <blood_type> <path_to_donors.csv>
+```
+
+Example:
+```
+./blood_compatibility search A+ ../../backend/donors.csv
+```
+
+This will print all donors with the specified blood type in CSV format (id,name,blood_type,contact). 
