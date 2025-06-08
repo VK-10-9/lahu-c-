@@ -1,0 +1,3 @@
+id,name,email,hashed_password,phone,blood_type,location,last_donation,role
+1,Vishwanath Koliwad,Shooter@ffd.df,$2b$12$fba9.uiuOyRgyICiWOk.Re3zTBhNvPbHDbd1a1HsUGojKs1rhwGw6,07011329518,,"Hubli , Karnataka",,donor
+2,vijay,vijay@tfyt.kj,$2b$12$Z50E0H6GfpTo5QyqnBpLLOo6o1v88TkQ1z9lW.2sat/CnZHfDPf.O,981825769,,"Hubli , Karnataka",,donor
