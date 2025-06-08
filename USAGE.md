@@ -1,4 +1,6 @@
-# Blood Donation System - Usage Guide
+# Lahu Usage Guide
+
+This guide provides detailed instructions on how to use the Lahu Blood Donation Management System.
 
 ## 📋 Table of Contents
 1. [Starting the System](#starting-the-system)
@@ -8,6 +10,9 @@
 5. [Blood Type Compatibility](#blood-type-compatibility)
 6. [System Administration](#system-administration)
 7. [API Usage](#api-usage)
+8. [Frontend Usage](#frontend-usage)
+9. [Security Best Practices](#security-best-practices)
+10. [Troubleshooting](#troubleshooting)
 
 ## 🚀 Starting the System
 

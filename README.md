@@ -1,4 +1,4 @@
-# Blood Donation Management System
+# Lahu - Blood Donation Management System
 
 A comprehensive blood donation management system that combines Python, C++, and Next.js to provide a robust platform for managing blood donations, donor information, and blood type compatibility.
 
@@ -64,8 +64,8 @@ The system is built using a hybrid architecture:
 
 1. **Clone the Repository**
    ```bash
-   git clone [repository-url]
-   cd blood-donation-system
+   git clone https://github.com/VK-10-9/lahu-c-.git
+   cd lahu
    ```
 
 2. **Backend Setup**
@@ -203,7 +203,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Your Name - Initial work
+- Vishwajeet Kumar - Initial work
 
 ## 🙏 Acknowledgments
 

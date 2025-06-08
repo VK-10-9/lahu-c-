@@ -1,4 +1,4 @@
-# Blood Donation System - Installation and Usage Guide
+# Lahu - Blood Donation Management System Report
 
 ## 📋 Table of Contents
 1. [System Overview](#system-overview)
@@ -9,84 +9,97 @@
 6. [Security Considerations](#security-considerations)
 7. [Performance Optimization](#performance-optimization)
 
-## 🏗️ System Overview
+## ��️ System Overview
 
-The Blood Donation System is a comprehensive platform that combines:
-- Python FastAPI backend
-- C++ core for blood compatibility
-- Next.js frontend
-- CSV-based data storage
+Lahu is a comprehensive blood donation management system that combines Python, C++, and Next.js to provide a robust platform for managing blood donations, donor information, and blood type compatibility. The system is designed to be efficient, secure, and user-friendly.
+
+### Architecture
+
+The system follows a hybrid architecture:
+
+1. **Backend (Python/FastAPI)**
+   - RESTful API implementation
+   - Data validation and processing
+   - Business logic handling
+   - CSV-based data storage
+
+2. **Core (C++)**
+   - High-performance blood compatibility checking
+   - System-level operations
+   - Optimized algorithms
+
+3. **Frontend (Next.js)**
+   - Modern React framework
+   - TypeScript support
+   - Server-side rendering
+   - Responsive design
 
 ### Key Features
-- Blood type compatibility checking
-- Donor management
-- Donation request handling
-- User authentication
-- Real-time updates
+
+1. **Blood Type Compatibility**
+   - Real-time compatibility verification
+   - Support for all blood types
+   - Detailed compatibility messages
+
+2. **User Management**
+   - Secure authentication
+   - Role-based access control
+   - Profile management
+
+3. **Donor Management**
+   - Donor registration
+   - Donation history
+   - Blood type information
+
+4. **Request System**
+   - Create and manage requests
+   - Track request status
+   - Location-based matching
 
 ## 🚀 Installation Guide
 
 ### Prerequisites
 
 1. **System Requirements**
-   - Windows 10/11, Linux, or macOS
-   - 4GB RAM minimum
-   - 1GB free disk space
-   - Internet connection
-
-2. **Required Software**
-   - Python 3.8 or higher
-   - Node.js 16 or higher
-   - C++ compiler (GCC/Clang/MSVC)
-   - CMake 3.10 or higher
+   - Python 3.8+
+   - Node.js 16+
+   - C++ compiler
+   - CMake 3.10+
    - Git
 
-### Step-by-Step Installation
+2. **Development Tools**
+   - Code editor (VS Code recommended)
+   - Git client
+   - Terminal/Command Prompt
 
-1. **Clone the Repository**
+### Installation Steps
+
+1. **Clone Repository**
    ```bash
-   git clone [repository-url]
-   cd blood-donation-system
+   git clone https://github.com/VK-10-9/lahu-c-.git
+   cd lahu
    ```
 
 2. **Backend Setup**
    ```bash
-   # Navigate to backend directory
    cd backend
-
-   # Create virtual environment
    python -m venv .venv
-   
-   # Activate virtual environment
-   # On Windows:
-   .venv\Scripts\activate
-   # On Linux/macOS:
-   source .venv/bin/activate
-
-   # Install dependencies
+   source .venv/bin/activate  # Windows: .venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
 3. **C++ Core Setup**
    ```bash
-   # Navigate to blood_donation_system directory
    cd blood_donation_system
-
-   # Create build directory
    mkdir build
    cd build
-
-   # Configure and build
    cmake ..
    cmake --build .
    ```
 
 4. **Frontend Setup**
    ```bash
-   # Navigate to frontend directory
    cd frontend
-
-   # Install dependencies
    npm install
    # or
    pnpm install
@@ -100,7 +113,7 @@ The Blood Donation System is a comprehensive platform that combines:
    Create a `.env` file in the backend directory:
    ```env
    SECRET_KEY=your-secret-key
-   ACCESS_TOKEN_EXPIRE_MINUTES=30
+   DATABASE_URL=your-database-url
    ```
 
 2. **Database Setup**
